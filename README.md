@@ -7,3 +7,6 @@
 a - git config --global core.hooksPath /path/to/shared/hooks
 b - chown -R root:root /path/to/shared/hooks
 c - chmod -R 755 /path/to/shared/hooks
+
+
+then the hook pre-push-dvc may be modified to push only some files
