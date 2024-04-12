@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+echo "push evaluate"
+exec dvc push evaluate
